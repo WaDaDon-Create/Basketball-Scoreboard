@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="team1">
+            <h3>HOME</h3>
+            <h2 class="score" id="home-score">0</h2>
+            <div class="buttons">
+                <div class="flex">
+                <button onclick="updateScore('home', 1)">+1</button>
+                <button onclick="updateScore('home', 2)">+2</button>
+                <button onclick="updateScore('home', 3)">+3</button>
+            </div>
+            </div>
+        </div>
+        <div class="team2">
+            <h3>AWAY</h3>
+            <h2 class="score" id="away-score">0</h2>
+            <div class="buttons">
+                <div class="flex">
+                <button onclick="updateScore('away', 1)">+1</button>
+                <button onclick="updateScore('away', 2)">+2</button>
+                <button onclick="updateScore('away', 3)">+3</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <button class="resetbtn" onclick="ResetScore()">RESET</button>
+    <script src="script.js"></script>
+</body>
+</html>

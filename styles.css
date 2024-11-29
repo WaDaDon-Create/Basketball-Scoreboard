@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: scoreboard;
+    background-image: url(./images/pexels-bayramfuerdieseele-9628399.jpg);
+    background-size: cover;
+}
+
+@font-face {
+    font-family: scoreboard;
+    src: url(./fonts/CursedTimerUlil-Aznm.ttf);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B244A;
+    margin: 50px 100px 0px 100px;
+    padding: 10px 100px;
+    border-radius: 15px;
+}
+
+.team1 {
+    margin-right: 250px;
+    font-size: 80px;
+}
+
+.team2 {
+    font-size: 80px;
+}
+
+h2 {
+    color: red;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 80px;
+}
+
+.buttons button {
+    background-color: #1B244A;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 5px;
+    position: relative;
+    bottom: 160px;
+}
+.flex{
+    display: flex;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.resetbtn {
+    background-color: #1B244A;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 5px;
+    position: relative;
+    bottom: 160px;
+}
